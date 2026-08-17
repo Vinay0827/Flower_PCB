@@ -1,0 +1,206 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "26a4e486-59a6-4b3f-b446-c400dc8d8d03")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 168.91 21.59)
+		(size 100.33 53.34)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "424efed4-9d84-41a7-bc99-7403cb76e07c")
+		(property "Sheetname" "Leaf"
+			(at 168.91 20.8784 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Leaf.kicad_sch"
+			(at 168.91 75.5146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Flower_PCB"
+				(path "/26a4e486-59a6-4b3f-b446-c400dc8d8d03"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 166.37 95.25)
+		(size 100.33 45.72)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "54c34b61-5040-4cbf-bf43-636285343462")
+		(property "Sheetname" "Power Control Unit"
+			(at 166.37 94.5384 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PCU.kicad_sch"
+			(at 166.37 141.5546 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Flower_PCB"
+				(path "/26a4e486-59a6-4b3f-b446-c400dc8d8d03"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 26.67 92.71)
+		(size 120.65 52.07)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "9f2d9b0e-1905-4138-9756-b6d46172704b")
+		(property "Sheetname" "Central Control Unit"
+			(at 26.67 91.9984 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Central_Control_Unit.kicad_sch"
+			(at 26.67 145.3646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Flower_PCB"
+				(path "/26a4e486-59a6-4b3f-b446-c400dc8d8d03"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 19.05)
+		(size 119.38 57.15)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "ab8dfc20-fa66-411c-acc1-1310522d3353")
+		(property "Sheetname" "Petal"
+			(at 25.4 18.3384 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Petal.kicad_sch"
+			(at 25.4 76.7846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Flower_PCB"
+				(path "/26a4e486-59a6-4b3f-b446-c400dc8d8d03"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
